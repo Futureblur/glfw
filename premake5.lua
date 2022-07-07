@@ -70,7 +70,7 @@ project "glfw"
 			"src/win32_joystick.c",
 			"src/win32_monitor.c",
 			"src/win32_window.c",
-			"wgl_contect.c"
+			"src/wgl_contect.c"
 		}
 
 		defines 
