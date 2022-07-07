@@ -58,15 +58,19 @@ project "glfw"
 	filter "system:windows"
 		files
 		{
-			"src/win32_init.c",
-			"src/win32_joystick.c",
-			"src/win32_monitor.c",
-			"src/win32_time.c",
-			"src/win32_thread.c",
-			"src/win32_window.c",
-			"src/wgl_context.c",
-			"src/egl_context.c",
-			"src/osmesa_context.c"
+			"win32_time.h",
+			"win32_thread.h",
+			"win32_module.c",
+			"win32_time.c",
+			"win32_thread.c",
+
+			"win32_platform.h",
+			"win32_joystick.h",
+			"win32_init.c",
+			"win32_joystick.c",
+			"win32_monitor.c",
+			"win32_window.c",
+			"wgl_contect.c"
 		}
 
 		defines "_GLFW_WIN32"
