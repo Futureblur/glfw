@@ -1,5 +1,5 @@
 project "glfw"
-	kind "SharedLib"
+	kind "StaticLib"
 	language "C"
 	objdir "%{BuildPath}"
 
