@@ -27,6 +27,9 @@ project "glfw"
 		"src/null_joystick.c"
 	}
 
+	filter "kind:SharedLib"
+		defines "_GLFW_BUILD_DLL"
+
 	filter "system:macosx"
 		files
 		{
